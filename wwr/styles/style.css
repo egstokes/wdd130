@@ -216,8 +216,55 @@ footer {
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
 }
+#salmon img, #grandcanyon img{
+ height: 525px;
+ width: 700px;
+
+}
+#salmon, #grandcanyon, #desolation {
+    margin-top: 15px;
+}
+#river-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: #FCBF49;
+}
+#salmon {
+    grid-column: 2;
+}
+#desolation{
+    grid-column: 2;
+}
+#grandcanyon {
+    grid-column: 2;
+}
+#salmon p {
+    color:#FCBF49;
+    text-align: left;
+}
+#desolation p {
+    color:#FCBF49;
+    text-align: left;
+}
+#grandcanyon p {
+    color:#FCBF49;
+    text-align: left;
+}
+#salmon h1 {
+    color:#FCBF49;
+    text-align: left;
+}
+#desolation h1{
+    color:#FCBF49;
+    text-align: left;
+}
+#grandcanyon h1 {
+    color:#FCBF49;
+    text-align: left;
+}
+
 @media screen and (max-width: 900px) {
-    #hero, .home-grid {
+    #hero, .home-grid, #river-grid {
         display: block;
         height: auto;
     }

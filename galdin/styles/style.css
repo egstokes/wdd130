@@ -1,0 +1,38 @@
+.logo {
+    width: 200px;
+    height: 200px
+}
+.castle img {
+    width: 25%;
+    height: 25%;
+}
+.knight img {
+    width: 25%;
+    height: 25%;
+}
+.worldmap img {
+    width: 75%;
+    height: 75%;
+    margin: 0
+}
+.fort img{
+  width: 75%;
+  height: 75%;
+}
+.dragon1 img{
+    width: 900px;
+    height: 700px;
+    grid-column: 1;
+}
+.dragon2 img{
+    width: 900px;
+    height: 700px; 
+    grid-column: 1;
+}
+#eventtext {
+    grid-column: 1;
+}
+#event-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}

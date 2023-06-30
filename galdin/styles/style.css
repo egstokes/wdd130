@@ -3,12 +3,17 @@
     height: 200px
 }
 .castle img {
-    width: 25%;
-    height: 25%;
+    width: 500px;
+    height: 500px;
+    margin-top: 15px;
+    border: 10px solid #003F88;
 }
+
 .knight img {
-    width: 25%;
-    height: 25%;
+    width: 500px;
+    height: 300px;
+    margin-top: 15px;
+    border: 10px solid #003F88;
 }
 .worldmap img {
     width: 75%;
@@ -35,4 +40,36 @@
 #event-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+}
+header {
+    background-color:#003F88 ;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+nav a {
+    text-align: center;
+    color: #FCBF49;
+    text-decoration: none;
+    padding: 35px;
+    display: block;
+    font-size: 50px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+body {
+    border: 10px solid #003F88;
+    background-color: #FCBF49;
+}
+footer {
+    background-color:#003F88;
+    padding: 25px 50px;
+    margin-top: 50px;
+    color: white;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

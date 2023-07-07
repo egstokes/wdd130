@@ -22,13 +22,15 @@
     border: 10px solid #00509D;
 }
 .worldmap img {
+    margin-top: 15px;
     width: 75%;
     height: 75%;
-    margin: 0
+    border: 10px solid #00509D;
 }
 .fort img{
   width: 75%;
   height: 75%;
+  border: 10px solid #00509D;
 }
 .dragon1 img{
     width: 900px;

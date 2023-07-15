@@ -19,53 +19,54 @@
                 <a href="site-plan.html">Site Plan</a>
          </nav>
      </header>
+    </div>
      <main>
-        <section class="worldmap">
-        <!-- Trigger the Modal -->
-        <img id="myImg" src="image/Galdin_v2.png" alt="Galdin World Map" class="center" style="width:50%;max-width:50%">
+    <div class="worldmap">
+                <!-- Trigger the Modal -->
+                <img id="myImg" src="image/Galdin_v2.png" alt="Galdin World Map" class="center" style="width:50%;max-width:50%">
 
-        <!-- The Modal -->
-        <div id="myModal" class="modal">
-
-         <!-- The Close Button -->
-        <span class="close">&times;</span>
-
-        <!-- Modal Content (The Image) -->
-        <img class="modal-content" id="img01">
-
-        <!-- Modal Caption (Image Text) -->
-         <div id="caption"></div>
-
-         <script>
-            // Get the modal
-            var modal = document.getElementById("myModal");
-            
-            // Get the image and insert it inside the modal - use its "alt" text as a caption
-            var img = document.getElementById("myImg");
-            var modalImg = document.getElementById("img01");
-            var captionText = document.getElementById("caption");
-            img.onclick = function(){
-              modal.style.display = "block";
-              modalImg.src = this.src;
-              captionText.innerHTML = this.alt;
-            }
-            
-            // Get the <span> element that closes the modal
-            var span = document.getElementsByClassName("close")[0];
-            
-            // When the user clicks on <span> (x), close the modal
-            span.onclick = function() { 
-              modal.style.display = "none";
-            }
-            </script>
-        </section>
-        <section class="maptext">
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+        
+                 <!-- The Close Button -->
+                <span class="close">&times;</span>
+        
+                <!-- Modal Content (The Image) -->
+                <img class="modal-content" id="img01">
+        
+                <!-- Modal Caption (Image Text) -->
+                 <div id="caption"></div>
+        
+                 <script>
+                    // Get the modal
+                    var modal = document.getElementById("myModal");
+                    
+                    // Get the image and insert it inside the modal - use its "alt" text as a caption
+                    var img = document.getElementById("myImg");
+                    var modalImg = document.getElementById("img01");
+                    var captionText = document.getElementById("caption");
+                    img.onclick = function(){
+                      modal.style.display = "block";
+                      modalImg.src = this.src;
+                      captionText.innerHTML = this.alt;
+                    }
+                    
+                    // Get the <span> element that closes the modal
+                    var span = document.getElementsByClassName("close")[0];
+                    
+                    // When the user clicks on <span> (x), close the modal
+                    span.onclick = function() { 
+                      modal.style.display = "none";
+                    }
+                    </script>
+    </div>
+        <div class="maptext">
             <p>Above is the map of Galdin. The blue icons represent the human Dutchy of Kent, the orange icons show the the Domain of the Elves (Tandia), and the green icons are all in the regions of Gravier, the Dwarf Kingdom.</p>
-        </section>
-        <section class="fort">
+        </div>
+        <div class="fort">
             <img src="image/Fort St. Denn_v1.2.png" alt="Fort St. Denn" class="center">
             <p>The above map is that of Fort St. Denn, a key outpost on the frontier of the lands of humanity and a vital defense point against the ever present threats that could head north from the lands of Desolation. Thanks to this fort, the Ducthy of Kent has been able to ward of many invasions from both orc and hobgoblin raiding parties.</p>
-        </section>
+        </div>
      </main>
      <footer>
         <p>Galdin &copy; 2023 - Ethan G. Stokes</p>

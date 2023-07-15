@@ -5,10 +5,10 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #003F88;
+  --primary-color: #FFD500;
   --secondary-color: #00509D ;
   --accent1-color: #FDC500;
-  --accent2-color: #FFD500;
+  --accent2-color: #003F88;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Bebas Neue","Times New Roman";
